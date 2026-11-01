@@ -1,0 +1,24 @@
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Gather the package facts] ************************************************
+ok: [localhost]
+
+TASK [Configure Fapolicy Module to Employ a Deny-all, Permit-by-exception Policy to Allow the Execution of Authorized Software Programs. - Gather the package facts] ***
+ok: [localhost]
+
+TASK [Configure Fapolicy Module to Employ a Deny-all, Permit-by-exception Policy to Allow the Execution of Authorized Software Programs. - Ensure a Final Rule Denying Everything] ***
+changed: [localhost]
+
+TASK [Configure Fapolicy Module to Employ a Deny-all, Permit-by-exception Policy to Allow the Execution of Authorized Software Programs. - Ensure fapolicyd is Not Permissive] ***
+ok: [localhost]
+
+TASK [Configure Fapolicy Module to Employ a Deny-all, Permit-by-exception Policy to Allow the Execution of Authorized Software Programs. - Restart fapolicyd If Permissive Mode or Final Rule is Changed] ***
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=6    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+

@@ -1,0 +1,15 @@
+== /dev/shm
+rw,nosuid,nodev,seclabel,inode64
+== audit rules
+No rules
+== faillock in PAM
+0
+Profile ID: sssd
+Enabled features:
+- with-fingerprint
+- with-silent-lastlog
+== kdump
+enabled
+== ipv6 redirects
+net.ipv6.conf.all.accept_redirects = 1
+net.ipv6.conf.default.accept_redirects = 1

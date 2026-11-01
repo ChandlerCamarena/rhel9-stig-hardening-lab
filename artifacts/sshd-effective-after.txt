@@ -1,0 +1,6 @@
+clientaliveinterval 600
+clientalivecountmax 1
+permitrootlogin no
+ciphers aes256-gcm@openssh.com,aes256-ctr,aes128-gcm@openssh.com,aes128-ctr
+macs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512,hmac-sha2-256
+banner /etc/issue

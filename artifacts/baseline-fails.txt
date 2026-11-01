@@ -1,0 +1,261 @@
+xccdf_org.ssgproject.content_rule_package_aide_installed | Install AIDE
+xccdf_org.ssgproject.content_rule_aide_build_database | Build and Test AIDE Database
+xccdf_org.ssgproject.content_rule_aide_check_audit_tools | Configure AIDE to Verify the Audit Tools
+xccdf_org.ssgproject.content_rule_aide_scan_notification | Configure Notification of Post-AIDE Scan Details
+xccdf_org.ssgproject.content_rule_aide_use_fips_hashes | Configure AIDE to Use FIPS 140-2 for Validating Hashes
+xccdf_org.ssgproject.content_rule_aide_verify_acls | Configure AIDE to Verify Access Control Lists (ACLs)
+xccdf_org.ssgproject.content_rule_aide_verify_ext_attributes | Configure AIDE to Verify Extended Attributes
+xccdf_org.ssgproject.content_rule_fips_custom_stig_sub_policy | Implement STIG Sub Crypto Policy
+xccdf_org.ssgproject.content_rule_configure_crypto_policy | Configure System Cryptography Policy
+xccdf_org.ssgproject.content_rule_sudo_require_reauthentication | Require Re-Authentication When Using the sudo Command
+xccdf_org.ssgproject.content_rule_sudoers_validate_passwd | Ensure invoking users password for privilege escalation when using sudo
+xccdf_org.ssgproject.content_rule_package_gnutls-utils_installed | Ensure gnutls-utils is installed
+xccdf_org.ssgproject.content_rule_package_nss-tools_installed | Ensure nss-tools is installed
+xccdf_org.ssgproject.content_rule_package_iprutils_removed | Uninstall iprutils Package
+xccdf_org.ssgproject.content_rule_package_tuned_removed | Uninstall tuned Package
+xccdf_org.ssgproject.content_rule_ensure_gpgcheck_local_packages | Ensure gpgcheck Enabled for Local Packages
+xccdf_org.ssgproject.content_rule_banner_etc_issue | Modify the System Login Banner
+xccdf_org.ssgproject.content_rule_account_password_pam_faillock_password_auth | Configure the Use of the pam_faillock.so Module in the /etc/pam.d/password-auth File.
+xccdf_org.ssgproject.content_rule_account_password_pam_faillock_system_auth | Configure the Use of the pam_faillock.so Module in the /etc/pam.d/system-auth File.
+xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_audit | Account Lockouts Must Be Logged
+xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_deny | Lock Accounts After Failed Password Attempts
+xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_deny_root | Configure the root Account for Failed Password Attempts
+xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_dir | Lock Accounts Must Persist
+xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_interval | Set Interval For Counting Failed Password Attempts
+xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_unlock_time | Set Lockout Time for Failed Password Attempts
+xccdf_org.ssgproject.content_rule_accounts_password_pam_dcredit | Ensure PAM Enforces Password Requirements - Minimum Digit Characters
+xccdf_org.ssgproject.content_rule_accounts_password_pam_dictcheck | Ensure PAM Enforces Password Requirements - Prevent the Use of Dictionary Words
+xccdf_org.ssgproject.content_rule_accounts_password_pam_difok | Ensure PAM Enforces Password Requirements - Minimum Different Characters
+xccdf_org.ssgproject.content_rule_accounts_password_pam_enforce_root | Ensure PAM Enforces Password Requirements - Enforce for root User
+xccdf_org.ssgproject.content_rule_accounts_password_pam_lcredit | Ensure PAM Enforces Password Requirements - Minimum Lowercase Characters
+xccdf_org.ssgproject.content_rule_accounts_password_pam_maxclassrepeat | Ensure PAM Enforces Password Requirements - Maximum Consecutive Repeating Characters from Same Character Class
+xccdf_org.ssgproject.content_rule_accounts_password_pam_maxrepeat | Set Password Maximum Consecutive Repeating Characters
+xccdf_org.ssgproject.content_rule_accounts_password_pam_minclass | Ensure PAM Enforces Password Requirements - Minimum Different Categories
+xccdf_org.ssgproject.content_rule_accounts_password_pam_minlen | Ensure PAM Enforces Password Requirements - Minimum Length
+xccdf_org.ssgproject.content_rule_accounts_password_pam_ocredit | Ensure PAM Enforces Password Requirements - Minimum Special Characters
+xccdf_org.ssgproject.content_rule_accounts_password_pam_pwquality_retry | Ensure PAM Enforces Password Requirements - Authentication Retry Prompts Permitted Per-Session in /etc/security/pwquality.conf
+xccdf_org.ssgproject.content_rule_accounts_password_pam_ucredit | Ensure PAM Enforces Password Requirements - Minimum Uppercase Characters
+xccdf_org.ssgproject.content_rule_service_debug-shell_disabled | Disable debug-shell SystemD Service
+xccdf_org.ssgproject.content_rule_disable_ctrlaltdel_burstaction | Disable Ctrl-Alt-Del Burst Action
+xccdf_org.ssgproject.content_rule_disable_ctrlaltdel_reboot | Disable Ctrl-Alt-Del Reboot Activation
+xccdf_org.ssgproject.content_rule_logind_session_timeout | Configure Logind to terminate idle sessions after certain time of inactivity
+xccdf_org.ssgproject.content_rule_package_opensc_installed | Install the opensc Package For Multifactor Authentication
+xccdf_org.ssgproject.content_rule_package_pcsc-lite_installed | Install the pcsc-lite package
+xccdf_org.ssgproject.content_rule_install_smartcard_packages | Install Smart Card Packages For Multifactor Authentication
+xccdf_org.ssgproject.content_rule_service_pcscd_enabled | Enable the pcscd Service
+xccdf_org.ssgproject.content_rule_configure_opensc_card_drivers | Configure opensc Smart Card Drivers
+xccdf_org.ssgproject.content_rule_accounts_authorized_local_users | Only Authorized Local User Accounts Exist on Operating System
+xccdf_org.ssgproject.content_rule_account_disable_post_pw_expiration | Set Account Expiration Following Inactivity
+xccdf_org.ssgproject.content_rule_accounts_maximum_age_login_defs | Set Password Maximum Age
+xccdf_org.ssgproject.content_rule_accounts_minimum_age_login_defs | Set Password Minimum Age
+xccdf_org.ssgproject.content_rule_accounts_password_set_max_life_existing | Set Existing Passwords Maximum Age
+xccdf_org.ssgproject.content_rule_accounts_password_set_min_life_existing | Set Existing Passwords Minimum Age
+xccdf_org.ssgproject.content_rule_accounts_password_pam_unix_rounds_password_auth | Set number of Password Hashing Rounds - password-auth
+xccdf_org.ssgproject.content_rule_accounts_password_pam_unix_rounds_system_auth | Set number of Password Hashing Rounds - system-auth
+xccdf_org.ssgproject.content_rule_no_empty_passwords | Prevent Login to Accounts With Empty Password
+xccdf_org.ssgproject.content_rule_use_pam_wheel_for_su | Enforce usage of pam_wheel for su authentication
+xccdf_org.ssgproject.content_rule_accounts_logon_fail_delay | Ensure the Logon Failure Delay is Set Correctly in login.defs
+xccdf_org.ssgproject.content_rule_accounts_max_concurrent_login_sessions | Limit the Number of Concurrent Login Sessions Allowed Per User
+xccdf_org.ssgproject.content_rule_accounts_tmout | Set Interactive Session Timeout
+xccdf_org.ssgproject.content_rule_file_permission_user_init_files_root | Ensure All User Initialization Files Have Mode 0740 Or Less Permissive
+xccdf_org.ssgproject.content_rule_accounts_umask_etc_bashrc | Ensure the Default Bash Umask is Set Correctly
+xccdf_org.ssgproject.content_rule_accounts_umask_etc_login_defs | Ensure the Default Umask is Set Correctly in login.defs
+xccdf_org.ssgproject.content_rule_accounts_umask_etc_profile | Ensure the Default Umask is Set Correctly in /etc/profile
+xccdf_org.ssgproject.content_rule_grub2_init_on_free | The system must booted with init_on_free=1
+xccdf_org.ssgproject.content_rule_grub2_pti_argument | Enable Kernel Page-Table Isolation (KPTI)
+xccdf_org.ssgproject.content_rule_grub2_vsyscall_argument | Disable vsyscalls
+xccdf_org.ssgproject.content_rule_grub2_admin_username | Set the Boot Loader Admin Username to a Non-Default Value
+xccdf_org.ssgproject.content_rule_grub2_password | Set Boot Loader Password in grub2
+xccdf_org.ssgproject.content_rule_rsyslog_encrypt_offload_actionsendstreamdriverauthmode | Ensure Rsyslog Authenticates Off-Loaded Audit Records
+xccdf_org.ssgproject.content_rule_rsyslog_encrypt_offload_actionsendstreamdrivermode | Ensure Rsyslog Encrypts Off-Loaded Audit Records
+xccdf_org.ssgproject.content_rule_rsyslog_encrypt_offload_defaultnetstreamdriver | Ensure Rsyslog Encrypts Off-Loaded Audit Records
+xccdf_org.ssgproject.content_rule_rsyslog_remote_access_monitoring | Ensure remote access methods are monitored in Rsyslog
+xccdf_org.ssgproject.content_rule_rsyslog_remote_loghost | Ensure Logs Sent To Remote Host
+xccdf_org.ssgproject.content_rule_network_configure_name_resolution | Configure Multiple DNS Servers in /etc/resolv.conf
+xccdf_org.ssgproject.content_rule_package_libreswan_installed | Install libreswan Package
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_ra | Configure Accepting Router Advertisements on All IPv6 Interfaces
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_redirects | Disable Accepting ICMP Redirects for All IPv6 Interfaces
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_source_route | Disable Kernel Parameter for Accepting Source-Routed Packets on all IPv6 Interfaces
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_forwarding | Disable Kernel Parameter for IPv6 Forwarding
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_ra | Disable Accepting Router Advertisements on all IPv6 Interfaces by Default
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_redirects | Disable Kernel Parameter for Accepting ICMP Redirects by Default on IPv6 Interfaces
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_source_route | Disable Kernel Parameter for Accepting Source-Routed Packets on IPv6 Interfaces by Default
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_accept_redirects | Disable Accepting ICMP Redirects for All IPv4 Interfaces
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_accept_source_route | Disable Kernel Parameter for Accepting Source-Routed Packets on all IPv4 Interfaces
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_forwarding | Disable Kernel Parameter for IPv4 Forwarding on all IPv4 Interfaces
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_log_martians | Enable Kernel Parameter to Log Martian Packets on all IPv4 Interfaces
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_rp_filter | Enable Kernel Parameter to Use Reverse Path Filtering on all IPv4 Interfaces
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_accept_redirects | Disable Kernel Parameter for Accepting ICMP Redirects by Default on IPv4 Interfaces
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_log_martians | Enable Kernel Parameter to Log Martian Packets on all IPv4 Interfaces by Default
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_rp_filter | Enable Kernel Parameter to Use Reverse Path Filtering on all IPv4 Interfaces by Default
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_icmp_echo_ignore_broadcasts | Enable Kernel Parameter to Ignore ICMP Broadcast Echo Requests on IPv4 Interfaces
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_icmp_ignore_bogus_error_responses | Enable Kernel Parameter to Ignore Bogus ICMP Error Responses on IPv4 Interfaces
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_tcp_syncookies | Enable Kernel Parameter to Use TCP Syncookies on Network Interfaces
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_send_redirects | Disable Kernel Parameter for Sending ICMP Redirects on all IPv4 Interfaces
+xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_send_redirects | Disable Kernel Parameter for Sending ICMP Redirects on all IPv4 Interfaces by Default
+xccdf_org.ssgproject.content_rule_kernel_module_atm_disabled | Disable ATM Support
+xccdf_org.ssgproject.content_rule_kernel_module_can_disabled | Disable CAN Support
+xccdf_org.ssgproject.content_rule_kernel_module_firewire-core_disabled | Disable IEEE 1394 (FireWire) Support
+xccdf_org.ssgproject.content_rule_kernel_module_sctp_disabled | Disable SCTP Support
+xccdf_org.ssgproject.content_rule_kernel_module_tipc_disabled | Disable TIPC Support
+xccdf_org.ssgproject.content_rule_kernel_module_bluetooth_disabled | Disable Bluetooth Kernel Module
+xccdf_org.ssgproject.content_rule_networkmanager_dns_mode | NetworkManager DNS Mode Must Be Must Configured
+xccdf_org.ssgproject.content_rule_rootfiles_configured | Ensure rootfiles tmpfile.d is Configured Correctly
+xccdf_org.ssgproject.content_rule_kernel_module_cramfs_disabled | Disable Mounting of cramfs
+xccdf_org.ssgproject.content_rule_kernel_module_usb-storage_disabled | Disable Modprobe Loading of USB Storage Driver
+xccdf_org.ssgproject.content_rule_mount_option_boot_efi_nosuid | Add nosuid Option to /boot/efi
+xccdf_org.ssgproject.content_rule_mount_option_boot_nodev | Add nodev Option to /boot
+xccdf_org.ssgproject.content_rule_mount_option_boot_nosuid | Add nosuid Option to /boot
+xccdf_org.ssgproject.content_rule_mount_option_dev_shm_nodev | Add nodev Option to /dev/shm
+xccdf_org.ssgproject.content_rule_mount_option_dev_shm_noexec | Add noexec Option to /dev/shm
+xccdf_org.ssgproject.content_rule_mount_option_dev_shm_nosuid | Add nosuid Option to /dev/shm
+xccdf_org.ssgproject.content_rule_mount_option_home_nodev | Add nodev Option to /home
+xccdf_org.ssgproject.content_rule_mount_option_home_noexec | Add noexec Option to /home
+xccdf_org.ssgproject.content_rule_mount_option_home_nosuid | Add nosuid Option to /home
+xccdf_org.ssgproject.content_rule_mount_option_nodev_nonroot_local_partitions | Add nodev Option to Non-Root Local Partitions
+xccdf_org.ssgproject.content_rule_mount_option_tmp_nodev | Add nodev Option to /tmp
+xccdf_org.ssgproject.content_rule_mount_option_tmp_noexec | Add noexec Option to /tmp
+xccdf_org.ssgproject.content_rule_mount_option_tmp_nosuid | Add nosuid Option to /tmp
+xccdf_org.ssgproject.content_rule_mount_option_var_log_audit_nodev | Add nodev Option to /var/log/audit
+xccdf_org.ssgproject.content_rule_mount_option_var_log_audit_noexec | Add noexec Option to /var/log/audit
+xccdf_org.ssgproject.content_rule_mount_option_var_log_audit_nosuid | Add nosuid Option to /var/log/audit
+xccdf_org.ssgproject.content_rule_mount_option_var_log_nodev | Add nodev Option to /var/log
+xccdf_org.ssgproject.content_rule_mount_option_var_log_noexec | Add noexec Option to /var/log
+xccdf_org.ssgproject.content_rule_mount_option_var_log_nosuid | Add nosuid Option to /var/log
+xccdf_org.ssgproject.content_rule_mount_option_var_nodev | Add nodev Option to /var
+xccdf_org.ssgproject.content_rule_mount_option_var_tmp_nodev | Add nodev Option to /var/tmp
+xccdf_org.ssgproject.content_rule_mount_option_var_tmp_noexec | Add noexec Option to /var/tmp
+xccdf_org.ssgproject.content_rule_mount_option_var_tmp_nosuid | Add nosuid Option to /var/tmp
+xccdf_org.ssgproject.content_rule_sysctl_kernel_core_pattern | Disable storing core dumps
+xccdf_org.ssgproject.content_rule_sysctl_kernel_dmesg_restrict | Restrict Access to Kernel Message Buffer
+xccdf_org.ssgproject.content_rule_sysctl_kernel_kexec_load_disabled | Disable Kernel Image Loading
+xccdf_org.ssgproject.content_rule_sysctl_kernel_perf_event_paranoid | Disallow kernel profiling by unprivileged users
+xccdf_org.ssgproject.content_rule_sysctl_kernel_unprivileged_bpf_disabled | Disable Access to Network bpf() Syscall From Unprivileged Processes
+xccdf_org.ssgproject.content_rule_sysctl_kernel_yama_ptrace_scope | Restrict usage of ptrace to descendant processes
+xccdf_org.ssgproject.content_rule_sysctl_net_core_bpf_jit_harden | Harden the operation of the BPF just-in-time compiler
+xccdf_org.ssgproject.content_rule_sysctl_user_max_user_namespaces_no_remediation | Disable the use of user namespaces
+xccdf_org.ssgproject.content_rule_sysctl_kernel_randomize_va_space | Enable Randomized Layout of Virtual Address Space
+xccdf_org.ssgproject.content_rule_grub2_page_poison_argument | Enable page allocator poisoning
+xccdf_org.ssgproject.content_rule_selinux_context_elevation_for_sudo | Elevate The SELinux Context When An Administrator Calls The Sudo Command
+xccdf_org.ssgproject.content_rule_service_kdump_disabled | Disable KDump Kernel Crash Analyzer (kdump)
+xccdf_org.ssgproject.content_rule_package_fapolicyd_installed | Install fapolicyd Package
+xccdf_org.ssgproject.content_rule_service_fapolicyd_enabled | Enable the File Access Policy Service
+xccdf_org.ssgproject.content_rule_fapolicy_default_deny | Configure Fapolicy Module to Employ a Deny-all, Permit-by-exception Policy to Allow the Execution of Authorized Software Programs.
+xccdf_org.ssgproject.content_rule_package_postfix_installed | The Postfix package is installed
+xccdf_org.ssgproject.content_rule_package_s-nail_installed | The s-nail Package Is Installed
+xccdf_org.ssgproject.content_rule_postfix_client_configure_mail_alias | Configure System to Forward All Mail For The Root Account
+xccdf_org.ssgproject.content_rule_chronyd_client_only | Disable chrony daemon from acting as server
+xccdf_org.ssgproject.content_rule_chronyd_configure_local_socket | Configure chrony-wait.service to use Unix socket
+xccdf_org.ssgproject.content_rule_chronyd_no_chronyc_network | Disable network management of chrony daemon
+xccdf_org.ssgproject.content_rule_chronyd_or_ntpd_set_maxpoll | Configure Time Service Maxpoll Interval
+xccdf_org.ssgproject.content_rule_chronyd_server_directive | Ensure Chrony is only configured with the server directive
+xccdf_org.ssgproject.content_rule_file_permissions_sshd_private_key | Verify Permissions on SSH Server Private *_key Key Files
+xccdf_org.ssgproject.content_rule_sshd_set_keepalive | Set SSH Client Alive Count Max
+xccdf_org.ssgproject.content_rule_sshd_set_idle_timeout | Set SSH Client Alive Interval
+xccdf_org.ssgproject.content_rule_disable_host_auth | Disable Host-Based Authentication
+xccdf_org.ssgproject.content_rule_sshd_disable_empty_passwords | Disable SSH Access via Empty Passwords
+xccdf_org.ssgproject.content_rule_sshd_disable_gssapi_auth | Disable GSSAPI Authentication
+xccdf_org.ssgproject.content_rule_sshd_disable_kerb_auth | Disable Kerberos Authentication
+xccdf_org.ssgproject.content_rule_sshd_disable_rhosts | Disable SSH Support for .rhosts Files
+xccdf_org.ssgproject.content_rule_sshd_disable_root_login | Disable SSH Root Login
+xccdf_org.ssgproject.content_rule_sshd_disable_user_known_hosts | Disable SSH Support for User Known Hosts
+xccdf_org.ssgproject.content_rule_sshd_disable_x11_forwarding | Disable X11 Forwarding
+xccdf_org.ssgproject.content_rule_sshd_do_not_permit_user_env | Do Not Allow SSH Environment Options
+xccdf_org.ssgproject.content_rule_sshd_enable_pubkey_auth | Enable Public Key Authentication
+xccdf_org.ssgproject.content_rule_sshd_enable_strictmodes | Enable Use of Strict Mode Checking
+xccdf_org.ssgproject.content_rule_sshd_enable_warning_banner | Enable SSH Warning Banner
+xccdf_org.ssgproject.content_rule_sshd_print_last_log | Enable SSH Print Last Log
+xccdf_org.ssgproject.content_rule_sshd_rekey_limit | Force frequent session key renegotiation
+xccdf_org.ssgproject.content_rule_sshd_set_loglevel_verbose | Set SSH Daemon LogLevel to VERBOSE
+xccdf_org.ssgproject.content_rule_sshd_x11_use_localhost | Prevent remote hosts from connecting to the proxy display
+xccdf_org.ssgproject.content_rule_sssd_certificate_verification | Certificate status checking in SSSD
+xccdf_org.ssgproject.content_rule_sssd_enable_certmap | Enable Certmap in SSSD
+xccdf_org.ssgproject.content_rule_sssd_enable_smartcards | Enable Smartcards in SSSD
+xccdf_org.ssgproject.content_rule_package_usbguard_installed | Install usbguard Package
+xccdf_org.ssgproject.content_rule_service_usbguard_enabled | Enable the USBGuard Service
+xccdf_org.ssgproject.content_rule_usbguard_generate_policy | Generate USBGuard Policy
+xccdf_org.ssgproject.content_rule_package_audispd-plugins_installed | Install audispd-plugins Package
+xccdf_org.ssgproject.content_rule_grub2_audit_argument | Enable Auditing for Processes Which Start Prior to the Audit Daemon
+xccdf_org.ssgproject.content_rule_grub2_audit_backlog_limit_argument | Extend Audit Backlog Limit for the Audit Daemon
+xccdf_org.ssgproject.content_rule_audit_rules_cron_execution | Audit Any Script or Executable Called by Cron as Root or by Any Privileged User
+xccdf_org.ssgproject.content_rule_audit_rules_immutable | Make the auditd Configuration Immutable
+xccdf_org.ssgproject.content_rule_audit_rules_sudoers | Ensure auditd Collects System Administrator Actions - /etc/sudoers
+xccdf_org.ssgproject.content_rule_audit_rules_sudoers_d | Ensure auditd Collects System Administrator Actions - /etc/sudoers.d/
+xccdf_org.ssgproject.content_rule_audit_rules_suid_privilege_function | Record Events When Privileged Executables Are Run
+xccdf_org.ssgproject.content_rule_audit_rules_system_shutdown | Shutdown System When Auditing Failures Occur
+xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_group | Record Events that Modify User/Group Information - /etc/group
+xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_gshadow | Record Events that Modify User/Group Information - /etc/gshadow
+xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_opasswd | Record Events that Modify User/Group Information - /etc/security/opasswd
+xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_passwd | Record Events that Modify User/Group Information - /etc/passwd
+xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_shadow | Record Events that Modify User/Group Information - /etc/shadow
+xccdf_org.ssgproject.content_rule_file_permissions_audit_configuration_stig | Audit Configuration Files Permissions are 600 or More Restrictive
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_chmod | Record Events that Modify the System's Discretionary Access Controls - chmod
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_chown | Record Events that Modify the System's Discretionary Access Controls - chown
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchmod | Record Events that Modify the System's Discretionary Access Controls - fchmod
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchmodat | Record Events that Modify the System's Discretionary Access Controls - fchmodat
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchown | Record Events that Modify the System's Discretionary Access Controls - fchown
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchownat | Record Events that Modify the System's Discretionary Access Controls - fchownat
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fremovexattr | Record Events that Modify the System's Discretionary Access Controls - fremovexattr
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fsetxattr | Record Events that Modify the System's Discretionary Access Controls - fsetxattr
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_lchown | Record Events that Modify the System's Discretionary Access Controls - lchown
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_lremovexattr | Record Events that Modify the System's Discretionary Access Controls - lremovexattr
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_lsetxattr | Record Events that Modify the System's Discretionary Access Controls - lsetxattr
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_removexattr | Record Events that Modify the System's Discretionary Access Controls - removexattr
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_setxattr | Record Events that Modify the System's Discretionary Access Controls - setxattr
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_umount | Record Events that Modify the System's Discretionary Access Controls - umount
+xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_umount2 | Record Events that Modify the System's Discretionary Access Controls - umount2
+xccdf_org.ssgproject.content_rule_audit_rules_execution_chacl | Record Any Attempts to Run chacl
+xccdf_org.ssgproject.content_rule_audit_rules_execution_setfacl | Record Any Attempts to Run setfacl
+xccdf_org.ssgproject.content_rule_audit_rules_execution_chcon | Record Any Attempts to Run chcon
+xccdf_org.ssgproject.content_rule_audit_rules_execution_semanage | Record Any Attempts to Run semanage
+xccdf_org.ssgproject.content_rule_audit_rules_execution_setfiles | Record Any Attempts to Run setfiles
+xccdf_org.ssgproject.content_rule_audit_rules_execution_setsebool | Record Any Attempts to Run setsebool
+xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_rename | Ensure auditd Collects File Deletion Events by User - rename
+xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_renameat | Ensure auditd Collects File Deletion Events by User - renameat
+xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_rmdir | Ensure auditd Collects File Deletion Events by User - rmdir
+xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_unlink | Ensure auditd Collects File Deletion Events by User - unlink
+xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_unlinkat | Ensure auditd Collects File Deletion Events by User - unlinkat
+xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_creat | Record Unsuccessful Access Attempts to Files - creat
+xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_ftruncate | Record Unsuccessful Access Attempts to Files - ftruncate
+xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_open | Record Unsuccessful Access Attempts to Files - open
+xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_open_by_handle_at | Record Unsuccessful Access Attempts to Files - open_by_handle_at
+xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_openat | Record Unsuccessful Access Attempts to Files - openat
+xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_truncate | Record Unsuccessful Access Attempts to Files - truncate
+xccdf_org.ssgproject.content_rule_audit_rules_kernel_module_loading_delete | Ensure auditd Collects Information on Kernel Module Unloading - delete_module
+xccdf_org.ssgproject.content_rule_audit_rules_kernel_module_loading_finit | Ensure auditd Collects Information on Kernel Module Loading and Unloading - finit_module
+xccdf_org.ssgproject.content_rule_audit_rules_kernel_module_loading_init | Ensure auditd Collects Information on Kernel Module Loading - init_module
+xccdf_org.ssgproject.content_rule_audit_rules_login_events_faillock | Record Attempts to Alter Logon and Logout Events - faillock
+xccdf_org.ssgproject.content_rule_audit_rules_login_events_lastlog | Record Attempts to Alter Logon and Logout Events - lastlog
+xccdf_org.ssgproject.content_rule_audit_privileged_commands_init | Ensure auditd Collects Information on the Use of Privileged Commands - init
+xccdf_org.ssgproject.content_rule_audit_privileged_commands_poweroff | Ensure auditd Collects Information on the Use of Privileged Commands - poweroff
+xccdf_org.ssgproject.content_rule_audit_privileged_commands_reboot | Ensure auditd Collects Information on the Use of Privileged Commands - reboot
+xccdf_org.ssgproject.content_rule_audit_privileged_commands_shutdown | Ensure auditd Collects Information on the Use of Privileged Commands - shutdown
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_chage | Ensure auditd Collects Information on the Use of Privileged Commands - chage
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_chsh | Ensure auditd Collects Information on the Use of Privileged Commands - chsh
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_crontab | Ensure auditd Collects Information on the Use of Privileged Commands - crontab
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_gpasswd | Ensure auditd Collects Information on the Use of Privileged Commands - gpasswd
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_kmod | Ensure auditd Collects Information on the Use of Privileged Commands - kmod
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_mount | Ensure auditd Collects Information on the Use of Privileged Commands - mount
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_newgrp | Ensure auditd Collects Information on the Use of Privileged Commands - newgrp
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_pam_timestamp_check | Ensure auditd Collects Information on the Use of Privileged Commands - pam_timestamp_check
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_passwd | Ensure auditd Collects Information on the Use of Privileged Commands - passwd
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_postdrop | Ensure auditd Collects Information on the Use of Privileged Commands - postdrop
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_postqueue | Ensure auditd Collects Information on the Use of Privileged Commands - postqueue
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_ssh_agent | Record Any Attempts to Run ssh-agent
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_ssh_keysign | Ensure auditd Collects Information on the Use of Privileged Commands - ssh-keysign
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_su | Ensure auditd Collects Information on the Use of Privileged Commands - su
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_sudo | Ensure auditd Collects Information on the Use of Privileged Commands - sudo
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_sudoedit | Ensure auditd Collects Information on the Use of Privileged Commands - sudoedit
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_umount | Ensure auditd Collects Information on the Use of Privileged Commands - umount
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_unix_chkpwd | Ensure auditd Collects Information on the Use of Privileged Commands - unix_chkpwd
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_unix_update | Ensure auditd Collects Information on the Use of Privileged Commands - unix_update
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_userhelper | Ensure auditd Collects Information on the Use of Privileged Commands - userhelper
+xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_usermod | Ensure auditd Collects Information on the Use of Privileged Commands - usermod
+xccdf_org.ssgproject.content_rule_auditd_data_disk_error_action_stig | Configure auditd Disk Error Action on Disk Error
+xccdf_org.ssgproject.content_rule_auditd_data_disk_full_action_stig | Configure auditd Disk Full Action when Disk Space Is Full
+xccdf_org.ssgproject.content_rule_auditd_data_retention_admin_space_left_action | Configure auditd admin_space_left Action on Low Disk Space
+xccdf_org.ssgproject.content_rule_auditd_data_retention_admin_space_left_percentage | Configure auditd admin_space_left on Low Disk Space
+xccdf_org.ssgproject.content_rule_auditd_data_retention_space_left_action | Configure auditd space_left Action on Low Disk Space
+xccdf_org.ssgproject.content_rule_auditd_data_retention_space_left_percentage | Configure auditd space_left on Low Disk Space
+xccdf_org.ssgproject.content_rule_auditd_freq | Set number of records to cause an explicit flush to audit logs
+xccdf_org.ssgproject.content_rule_auditd_name_format | Set type of computer node name logging in audit logs

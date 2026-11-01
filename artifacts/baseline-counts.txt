@@ -1,0 +1,5 @@
+    261 <result>fail</result>
+     27 <result>notapplicable</result>
+     10 <result>notchecked</result>
+   1063 <result>notselected</result>
+    179 <result>pass</result>

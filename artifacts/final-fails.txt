@@ -1,0 +1,9 @@
+xccdf_org.ssgproject.content_rule_harden_sshd_macs_openssh_conf_crypto_policy | Configure SSH Client to Use FIPS 140-2 Validated MACs: openssh.config
+xccdf_org.ssgproject.content_rule_harden_sshd_macs_opensshserver_conf_crypto_policy | Configure SSH Server to Use FIPS 140-2 Validated MACs: opensshserver.config
+xccdf_org.ssgproject.content_rule_accounts_authorized_local_users | Only Authorized Local User Accounts Exist on Operating System
+xccdf_org.ssgproject.content_rule_grub2_admin_username | Set the Boot Loader Admin Username to a Non-Default Value
+xccdf_org.ssgproject.content_rule_network_configure_name_resolution | Configure Multiple DNS Servers in /etc/resolv.conf
+xccdf_org.ssgproject.content_rule_sysctl_user_max_user_namespaces_no_remediation | Disable the use of user namespaces
+xccdf_org.ssgproject.content_rule_selinux_context_elevation_for_sudo | Elevate The SELinux Context When An Administrator Calls The Sudo Command
+xccdf_org.ssgproject.content_rule_chronyd_server_directive | Ensure Chrony is only configured with the server directive
+xccdf_org.ssgproject.content_rule_sssd_enable_certmap | Enable Certmap in SSSD

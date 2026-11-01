@@ -1,0 +1,33 @@
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Gather the package facts] ************************************************
+ok: [localhost]
+
+TASK [Check for duplicate values] **********************************************
+ok: [localhost]
+
+TASK [Deduplicate values from /etc/postfix/main.cf] ****************************
+skipping: [localhost]
+
+TASK [Insert correct line to /etc/postfix/main.cf] *****************************
+changed: [localhost]
+
+TASK [Gather the package facts] ************************************************
+ok: [localhost]
+
+TASK [Check for duplicate values] **********************************************
+ok: [localhost]
+
+TASK [Deduplicate values from /etc/usbguard/usbguard-daemon.conf] **************
+skipping: [localhost]
+
+TASK [Insert correct line to /etc/usbguard/usbguard-daemon.conf] ***************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=7    changed=2    unreachable=0    failed=0    skipped=2    rescued=0    ignored=0   
+

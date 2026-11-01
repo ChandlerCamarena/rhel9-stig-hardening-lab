@@ -1,0 +1,14 @@
+== faillock
+deny = 3
+fail_interval = 900
+unlock_time = 0
+== sudo
+Defaults timestamp_timeout=0
+== TMOUT
+typeset -xr TMOUT=600
+== logind
+#StopIdleSessionSec=infinity
+StopIdleSessionSec = 600
+== removed
+package tuned is not installed
+package iprutils is not installed

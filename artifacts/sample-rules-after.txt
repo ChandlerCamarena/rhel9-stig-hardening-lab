@@ -1,0 +1,28 @@
+== /dev/shm
+rw,nosuid,nodev,noexec,seclabel,inode64
+== audit status
+enabled 2
+failure 2
+== audit rule count
+76
+== faillock in PAM
+3
+Profile ID: custom/hardening
+Enabled features:
+- with-fingerprint
+- with-silent-lastlog
+- with-faillock
+- without-nullok
+- with-smartcard
+== kdump
+masked
+== ipv6 redirects
+net.ipv6.conf.all.accept_redirects = 0
+net.ipv6.conf.default.accept_redirects = 0
+== FIPS
+1
+FIPS mode is enabled.
+FIPS:STIG
+== cmdline
+BOOT_IMAGE=(hd0,gpt2)/vmlinuz-5.14.0-687.61.1.el9_8.x86_64 root=/dev/mapper/rhel_rhel9--stig-root ro crashkernel=1G-2G:192M,2G-64G:256M,64G-:512M boot=UUID=277d90a4-8868-4644-8bcd-b9d2d2458c2e resume=/dev/mapper/rhel_rhel9--stig-swap rd.lvm.lv=rhel_rhel9-stig/root rd.lvm.lv=rhel_rhel9-stig/swap fips=1 rhgb quiet init_on_free=1 pti=on vsyscall=none page_poison=1 audit=1 audit_backlog_limit=8192
+== failed units

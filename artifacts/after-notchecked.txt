@@ -1,0 +1,10 @@
+xccdf_org.ssgproject.content_rule_crypto_policy_not_overridden | Ensure System Cryptographic Policy Is Not Overridden
+xccdf_org.ssgproject.content_rule_encrypt_partitions | Encrypt Partitions
+xccdf_org.ssgproject.content_rule_security_patches_up_to_date | Ensure Software Patches Installed
+xccdf_org.ssgproject.content_rule_account_temp_expire_date | Assign Expiration Date to Temporary Accounts
+xccdf_org.ssgproject.content_rule_accounts_user_home_paths_only | Ensure that Users Path Contains Only Local Directories
+xccdf_org.ssgproject.content_rule_configured_firewalld_default_deny | Firewalld Must Employ a Deny-all, Allow-by-exception Policy for Allowing Connections to Other Systems
+xccdf_org.ssgproject.content_rule_libreswan_approved_tunnels | Verify Any Configured IPSec Tunnel Connections
+xccdf_org.ssgproject.content_rule_ssh_keys_passphrase_protected | Verify the SSH Private Key Files Have a Passcode
+xccdf_org.ssgproject.content_rule_sssd_has_trust_anchor | SSSD Has a Correct Trust Anchor
+xccdf_org.ssgproject.content_rule_auditd_audispd_configure_sufficiently_large_partition | Configure a Sufficiently Large Partition for Audit Logs

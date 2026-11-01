@@ -1,0 +1,5 @@
+pass              179    430
+fail              261     13
+notapplicable      27     24
+notchecked         10     10
+error               0      0

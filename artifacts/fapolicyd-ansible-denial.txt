@@ -1,0 +1,6 @@
+----
+type=PROCTITLE msg=audit(10/31/2026 17:42:31.314:17939) : proctitle=/usr/bin/python3 /usr/bin/ansible-playbook -i localhost, -c local --become --ask-become-pass --tags DISA-STIG-RHEL-09-433010,DIS 
+type=PATH msg=audit(10/31/2026 17:42:31.314:17939) : item=0 name=/home/chandler/.ansible/tmp/ansible-local-58460819iybfi/tmp_useoqcd inode=136211 dev=fd:05 mode=file,600 ouid=chandler ogid=chandler rdev=00:00 obj=unconfined_u:object_r:user_home_t:s0 nametype=NORMAL cap_fp=none cap_fi=none cap_fe=0 cap_fver=0 cap_frootid=0 
+type=CWD msg=audit(10/31/2026 17:42:31.314:17939) : cwd=/home/chandler/stig-lab 
+type=SYSCALL msg=audit(10/31/2026 17:42:31.314:17939) : arch=x86_64 syscall=openat success=no exit=EPERM(Operation not permitted) a0=AT_FDCWD a1=0x7fab51a2b130 a2=O_RDONLY|O_CLOEXEC a3=0x0 items=1 ppid=58460 pid=59506 auid=chandler uid=chandler gid=chandler euid=chandler suid=chandler fsuid=chandler egid=chandler sgid=chandler fsgid=chandler tty=pts2 ses=4 comm=ansible-playboo exe=/usr/bin/python3.9 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 key=(null) 
+type=FANOTIFY msg=audit(10/31/2026 17:42:31.314:17939) : resp=deny fan_type=rule_info fan_info=11 subj_trust=unknown obj_trust=no 
