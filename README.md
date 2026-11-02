@@ -255,3 +255,7 @@ All in `artifacts/`. The XCCDF results and ARF XML files are not published, and 
 | `final-report.html`, `final-scan.log`, `final-fails.txt` | Final scan |
 | `before-after.txt`, `before-after-final.txt` | Count tables |
 | `usability-verify.txt` | faillock, sudo, TMOUT and logind values, removed packages |
+
+## Follow-on
+
+This host was later enrolled as a FreeIPA client with TOTP MFA. The effect of enrollment on this baseline (score 97.04 to 94.10 after reconciliation, with two documented package deviations) is measured in [freeipa-totp-stig-lab](https://github.com/ChandlerCamarena/freeipa-totp-stig-lab). The results above describe the host before enrollment.
